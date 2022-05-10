@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test_01</title>
+    <link rel="stylesheet" href="../css/test_01.css" />
+  </head>
+  <body>
+    <div id="img_box_wrapper">
+      <h1 id="img_title"></h1>
+      <img id="now_img" src="" />
+      <h2><a target="_blank" id="img_link">자세한 정보</a></h2>
+      <p id="img_desc"></p>
+      <input type="button" id="img_up_button" value="up" />
+    </div>
+
+    <div id="chat_box">
+      <div id="display"></div>
+      <div id="buttons">
+        <input id="textInput" type="text" placeholder="chatting" />
+        <input id="chatButton" type="button" value="chat" />
+      </div>
+    </div>
+    <script
+      src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+      integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://threejs.org/build/three.min.js"></script>
+    <script src="../js/baseSetting.js"></script>
+    <script src="../js/mesh.js"></script>
+    <script src="../js/userMoving.js"></script>
+    <script src="../js/camera.js"></script>
+    <script src="../js/light.js"></script>
+    <script src="../js/loader.js"></script>
+    <script src="../js/map.js"></script>
+    <script src="../js/all.js"></script>
+  </body>
+</html>
